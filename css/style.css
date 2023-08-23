@@ -1,0 +1,62 @@
+.w-25 {
+    cursor: pointer;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    background-color: #fff;
+    text-align: center;
+}
+
+    #lightBoxContainer {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* display: none; */
+        /* background-color: tomato; */
+    }
+
+
+#lightBox {
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#btnClose {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+i {
+    font-size: 18px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+
+.test {
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/portfolio-1.jpg);
+}
