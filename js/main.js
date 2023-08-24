@@ -15,7 +15,7 @@ for (let i = 0; i < myImages.length; i++) {
         currentIndex = myImages.indexOf(e.target)
         // console.log(currentIndex);
         console.log(imgSrc);
-        
+
     })
 }
 
@@ -53,7 +53,7 @@ function closeButton() {
     lightBoxContainer.classList.add('d-none')
 }
 
-document.addEventListener('keydown', (e)=>{
+document.addEventListener('keydown', (e) => {
     if (e.key === "ArrowRight") {
         nextSlider();
     } else if (e.key === "ArrowLeft") {
@@ -66,6 +66,13 @@ document.addEventListener('keydown', (e)=>{
 next.addEventListener('click', nextSlider)
 previous.addEventListener('click', previousSlider)
 closeBtn.addEventListener('click', closeButton)
+
+// $(".item").hover(function () {
+//     $(this).find('.item-caption').fadeIn(1000);
+//     console.log("HI");
+// }, function () {
+//     $(this).find('.item-caption').fadeOut(1000);
+// });
 
 // lightBoxContainer.addEventListener('click', function (e) {
 //     if (e.clientX <= 378 || e.clientX >= 1138) {
@@ -97,3 +104,5 @@ closeBtn.addEventListener('click', closeButton)
 
 
 // })
+
+
