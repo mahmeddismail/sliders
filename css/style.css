@@ -2,8 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Rubik', sans-serif;
-    overflow: hidden;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg);
+/*     overflow: hidden; */
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/samuel-regan-asante-abV5LdRGo_k-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
