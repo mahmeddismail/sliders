@@ -43,16 +43,14 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* display: none; */
-        /* background-color: tomato; */
     }
 
 
 #lightBox {
     background-image: url(../images/6.jpg);
     background-size: cover;
-    width: 50%;
-    height: 500px;
+    width: 70%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,14 +64,22 @@ body {
 }
 
 i {
-    font-size: 18px;
+    font-size: 28px;
     margin: 0px 5px;
     cursor: pointer;
 }
-
 
 .test {
     width: 200px;
     height: 200px;
     background-image: url(../images/portfolio-1.jpg);
 }
+
+@media screen and (max-width: 767px) {
+    #lightBox {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+
