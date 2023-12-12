@@ -53,6 +53,15 @@ function closeButton() {
     lightBoxContainer.classList.add('d-none')
 }
 
+// Close the lightbox by clicking outside the image
+lightBoxContainer.addEventListener('click', function (e) {
+    lightBoxContainer.classList.add('d-none')
+})
+
+lightBox.addEventListener('click', function (e) {
+    e.stopPropagation()
+})
+
 document.addEventListener('keydown', (e) => {
     if (e.key === "ArrowRight") {
         nextSlider();
