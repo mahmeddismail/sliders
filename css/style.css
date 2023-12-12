@@ -27,8 +27,8 @@ body {
     left: 5%;
     width: 90%;
     text-align: center;
-    opacity: 0;
-    transform: translateY(100%);
+/*     opacity: 0; */
+    transform: translateY(150%);
     transition: transform 2s ease;
     background-color: #FBFCF8;
 }
